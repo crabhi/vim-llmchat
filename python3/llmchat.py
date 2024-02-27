@@ -25,7 +25,12 @@ class Parser:
         self.messages = []
 
     def start(self):
-        if m := self.buf[self.line]
+        self.parse_options()
+        self.parse_system()
+        self.parse_conversation()
+
+    def parse_options(self):
+        line = self.buf[self.line]
 
 
 def communicate():
