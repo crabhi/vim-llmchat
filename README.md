@@ -72,3 +72,7 @@ Hello there. Prepare to face my wrath.
 ```
 
 This is still a plain text file. You can copy, paste, modify anything. Enjoy!
+
+## Supported providers
+
+Only OpenAI at the moment
