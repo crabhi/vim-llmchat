@@ -34,7 +34,7 @@ def get_api_key():
 
     key = None
     while not (key and key.strip()):
-        key = vim.eval('input("Enter your OpenAI API key from https://platform.openai.com/api-keys: ")')
+        key = vim.eval('input("Enter your OpenAI API key from https://platform.openai.com/api-keys : ")')
 
     if pref_storage == 'keyring':
         keyring.set_password('vim-llmchat', 'openai', key.strip())
